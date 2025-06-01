@@ -1,7 +1,7 @@
 task: detect
 mode: train
-model: /home/fengrenchen/Code/yolo11-new/ultralytics/cfg/models/11/yolo11-hyper.yaml
-data: /home/fengrenchen/Code/yolo11-new/VOC.yaml
+model: yolo11-hyper.yaml
+data: VOC.yaml
 epochs: 300
 time: null
 patience: 100
