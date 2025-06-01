@@ -1,8 +1,8 @@
 
 
 
-train: /home/fengrenchen/DataSet/VOC_COCO/train
-val: /home/fengrenchen/DataSet/VOC_COCO/val
+train: DataSet/VOC_COCO/train
+val: DataSet/VOC_COCO/val
 
 
 # Classes
