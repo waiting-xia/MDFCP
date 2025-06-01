@@ -8,11 +8,11 @@ if __name__ == "__main__":
 
     model = YOLO('/home/fengrenchen/Code/yolo11-new/ultralytics/cfg/models/11/yolo11-hyper-MFM-Dyhead.yaml')
     
-    # model = YOLO('/home/fengrenchen/Code/yolo11-new/ultralytics/cfg/models/11/yolo11s-hyper-MFM-Dyhead.yaml')
-    model.load('/home/fengrenchen/Code/yolo11-new/runs/COCO/train_hyper_MFM_2/exp3/weights/last.pt')
+    # model = YOLO('yolo11-hyper-MFM-Dyhead.yaml')
+
     # model.load('yolo11n.pt') # loading pretrain weights
     # print(model.info())
-    model.train(data='/home/fengrenchen/Code/yolo11-new/COCO.yaml',
+    model.train(data='COCO.yaml',
                 imgsz=640,
                 batch=32,
                 close_mosaic=0, # 最后多少个epoch关闭mosaic数据增强，设置0代表全程开启mosaic训练
