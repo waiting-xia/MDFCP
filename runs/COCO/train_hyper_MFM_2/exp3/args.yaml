@@ -1,7 +1,7 @@
 task: detect
 mode: train
-model: /home/fengrenchen/Code/yolo11-new/runs/COCO/train_hyper_MFM_2/exp3/weights/last.pt
-data: /home/fengrenchen/Code/yolo11-new/COCO.yaml
+model: 
+data: 
 epochs: 300
 time: null
 patience: 100
